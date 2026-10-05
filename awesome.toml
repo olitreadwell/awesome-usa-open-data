@@ -1,0 +1,70 @@
+# Configuration for this list. The engine reads it, the site reads it, and the
+# scheduled jobs read it.
+
+name = "Awesome USA Data"
+repo_slug = "awesome-usa-open-data"
+readme = "README.md"
+
+# Sections that hold entries. "Start here" is a prose summary, so it is not
+# listed here and the engine leaves it alone.
+sections = [
+    "Federal government and agencies",
+    "Statistics and economics",
+    "Money, markets and regulation",
+    "Health and public health",
+    "Education, science and culture",
+    "Environment, climate and geospatial",
+    "Transport",
+    "Energy, agriculture and food",
+    "State portals",
+    "City portals",
+]
+
+[site]
+enabled = true
+
+[links]
+archive = "off"
+exclude = []
+allowlist = []
+
+[github]
+# Every GitHub link carries stars and a last-push date: make stats fetches them,
+# make stats-check verifies them offline. This list has no GitHub links yet, so
+# both commands have nothing to do until one is added.
+stats = true
+max_age_days = 30
+snapshot = "github-stats.json"
+
+[sources]
+# Upstream lists to mine for candidates. make sources writes a report; a human
+# writes every entry.
+lists = [
+    "https://raw.githubusercontent.com/public-apis/public-apis/master/README.md",
+]
+keywords = [
+    "united states",
+    "data.gov",
+    "census.gov",
+    "federal",
+    "new york",
+    "california",
+]
+report = "reports/source-candidates.md"
+
+[tags.type]
+API = "⇄"
+Data = "▦"
+Portal = "☰"
+Register = "☑"
+Docs = "¶"
+
+[tags.access]
+Open = "○"
+Key = "◑"
+Login = "◕"
+Paid = "●"
+
+[tags.status]
+Legacy = "⟳"
+Archived = "▣"

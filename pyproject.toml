@@ -1,0 +1,20 @@
+[project]
+name = "awesome-usa-open-data"
+version = "0.1.0"
+description = "A curated list of United States data sources, APIs, registers and portals."
+requires-python = ">=3.12"
+dependencies = [
+    "awesome-list @ git+https://github.com/olitreadwell/awesome-list-template@1b5dbd3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+
+[tool.uv]
+package = false

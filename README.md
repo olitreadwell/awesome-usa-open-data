@@ -76,6 +76,7 @@ These cover most requests. Each one is listed in full under its publisher below.
 - [EstimateTax](https://estimatetax.net/api/) - ⇄ API - ○ Open - US federal, state, and local income tax calculations for one salary, with the IRS or state document behind each figure and the date it was checked. Keyless and limited to 60 requests a minute per address.
 - US Department of the Treasury
     - [USAspending API](https://api.usaspending.gov/) - ⇄ API - ○ Open - Treasury API for federal spending under the DATA Act: awards, recipients, agency and geographic breakdowns, and account-level data, all as JSON.
+    - [USAspending top-tier agency budget data](https://api.usaspending.gov/api/v2/references/toptier_agencies/) - ⇄ API - ○ Open - Budget authority, obligations, and outlays for every top-tier federal agency in the active fiscal quarter, one row per agency.
     - [Treasury Fiscal Data API](https://fiscaldata.treasury.gov/) - ⇄ API - ○ Open - Treasury fiscal data as a REST API and bulk download: national debt, interest rates, federal spending and revenue, and savings bond values. No API key.
 
 ## Money, markets and regulation

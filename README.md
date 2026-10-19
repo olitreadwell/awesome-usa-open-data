@@ -78,6 +78,7 @@ These cover most requests. Each one is listed in full under its publisher below.
     - [USAspending API](https://api.usaspending.gov/) - ⇄ API - ○ Open - Treasury API for federal spending under the DATA Act: awards, recipients, agency and geographic breakdowns, and account-level data, all as JSON.
     - [USAspending top-tier agency budget data](https://api.usaspending.gov/api/v2/references/toptier_agencies/) - ⇄ API - ○ Open - Budget authority, obligations, and outlays for every top-tier federal agency in the active fiscal quarter, one row per agency.
     - [Treasury Fiscal Data API](https://fiscaldata.treasury.gov/) - ⇄ API - ○ Open - Treasury fiscal data as a REST API and bulk download: national debt, interest rates, federal spending and revenue, and savings bond values. No API key.
+    - [Debt to the Penny](https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny) - ▦ Data - ○ Open - Daily total public debt outstanding since 1993, split into debt held by the public and intragovernmental holdings, one row per business day with the figures to the cent.
 
 ## Money, markets and regulation
 

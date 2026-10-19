@@ -110,6 +110,7 @@ These cover most requests. Each one is listed in full under its publisher below.
 ## Environment, climate and geospatial
 
 - [EPA Environmental Data](https://cdx.epa.gov/) - ☰ Portal - ○ Open - EPA Central Data Exchange and dataset catalog: air quality, water, toxics release inventory, and enforcement data with public APIs.
+- [EPA Toxics Release Inventory facilities](https://data.epa.gov/efservice/TRI_FACILITY/STATE_ABBR/CA/rows/0:9/JSON) - ⇄ API - ○ Open - One row per Toxics Release Inventory facility in a state, with the site address, county, parent company, and whether the EPA marks it closed. The Envirofacts endpoint answers JSON without a key and takes a state code and row window in the path.
 - [AirNow API](https://www.airnow.gov/) - ⇄ API - ◑ Key - Air quality observations and forecasts from the EPA's AirNow program, which draws on more than 150 local, state, tribal, provincial, and federal partner agencies and more than 2,500 monitoring stations. The REST API returns current AQI by ZIP code, reporting area, or latitude and longitude, plus forecasts, with a free key. Values are preliminary, not regulatory-grade.
 - NOAA
     - [NOAA Open APIs](https://www.noaa.gov/) - ⇄ API - ○ Open - National Oceanic and Atmospheric Administration: weather, climate, tides, oceans, and satellite APIs, many reachable without a key.

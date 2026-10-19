@@ -2,7 +2,7 @@
   "name": "Awesome USA Data",
   "repo_slug": "awesome-usa-open-data",
   "generated_at": "2026-10-19",
-  "entry_count": 66,
+  "entry_count": 67,
   "sections": [
     {
       "name": "Legend",
@@ -548,6 +548,19 @@
           "line": 112
         },
         {
+          "name": "EPA Toxics Release Inventory facilities",
+          "url": "https://data.epa.gov/efservice/TRI_FACILITY/STATE_ABBR/CA/rows/0:9/JSON",
+          "description": "One row per Toxics Release Inventory facility in a state, with the site address, county, parent company, and whether the EPA marks it closed. The Envirofacts endpoint answers JSON without a key and takes a state code and row window in the path.",
+          "tags": [
+            "API",
+            "Open"
+          ],
+          "group": null,
+          "stars": null,
+          "last_push": null,
+          "line": 113
+        },
+        {
           "name": "AirNow API",
           "url": "https://www.airnow.gov/",
           "description": "Air quality observations and forecasts from the EPA's AirNow program, which draws on more than 150 local, state, tribal, provincial, and federal partner agencies and more than 2,500 monitoring stations. The REST API returns current AQI by ZIP code, reporting area, or latitude and longitude, plus forecasts, with a free key. Values are preliminary, not regulatory-grade.",
@@ -558,7 +571,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 113
+          "line": 114
         },
         {
           "name": "NOAA Open APIs",
@@ -571,7 +584,7 @@
           "group": "NOAA",
           "stars": null,
           "last_push": null,
-          "line": 115
+          "line": 116
         },
         {
           "name": "National Weather Service API",
@@ -584,7 +597,7 @@
           "group": "NOAA",
           "stars": null,
           "last_push": null,
-          "line": 116
+          "line": 117
         },
         {
           "name": "USGS Earthquake Hazards",
@@ -597,7 +610,7 @@
           "group": "US Geological Survey",
           "stars": null,
           "last_push": null,
-          "line": 118
+          "line": 119
         },
         {
           "name": "USGS Water Services",
@@ -610,7 +623,7 @@
           "group": "US Geological Survey",
           "stars": null,
           "last_push": null,
-          "line": 119
+          "line": 120
         }
       ]
     },
@@ -628,7 +641,7 @@
           "group": "US Department of Transportation",
           "stars": null,
           "last_push": null,
-          "line": 124
+          "line": 125
         },
         {
           "name": "Bureau of Transportation Statistics",
@@ -641,7 +654,7 @@
           "group": "US Department of Transportation",
           "stars": null,
           "last_push": null,
-          "line": 125
+          "line": 126
         },
         {
           "name": "NHTSA Vehicle APIs",
@@ -654,7 +667,7 @@
           "group": "US Department of Transportation",
           "stars": null,
           "last_push": null,
-          "line": 126
+          "line": 127
         }
       ]
     },
@@ -672,7 +685,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 130
+          "line": 131
         },
         {
           "name": "USDA NASS Quick Stats API",
@@ -685,7 +698,7 @@
           "group": "US Department of Agriculture (USDA)",
           "stars": null,
           "last_push": null,
-          "line": 132
+          "line": 133
         },
         {
           "name": "USDA FoodData Central",
@@ -698,7 +711,7 @@
           "group": "US Department of Agriculture (USDA)",
           "stars": null,
           "last_push": null,
-          "line": 133
+          "line": 134
         }
       ]
     },
@@ -716,7 +729,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 137
+          "line": 138
         },
         {
           "name": "California Open Data Portal",
@@ -729,7 +742,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 138
+          "line": 139
         },
         {
           "name": "Texas Open Data",
@@ -742,7 +755,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 139
+          "line": 140
         },
         {
           "name": "Colorado Open Data",
@@ -755,7 +768,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 140
+          "line": 141
         },
         {
           "name": "Washington State Open Data",
@@ -768,7 +781,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 141
+          "line": 142
         },
         {
           "name": "Michigan Open Data",
@@ -781,7 +794,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 142
+          "line": 143
         },
         {
           "name": "Oregon Open Data",
@@ -794,7 +807,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 143
+          "line": 144
         },
         {
           "name": "Pennsylvania Open Data",
@@ -807,7 +820,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 144
+          "line": 145
         },
         {
           "name": "Illinois Open Data",
@@ -820,7 +833,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 145
+          "line": 146
         },
         {
           "name": "New Jersey Open Data",
@@ -833,7 +846,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 146
+          "line": 147
         },
         {
           "name": "Vermont Open Data",
@@ -846,7 +859,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 147
+          "line": 148
         }
       ]
     },
@@ -864,7 +877,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 151
+          "line": 152
         },
         {
           "name": "Chicago Data Portal",
@@ -877,7 +890,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 152
+          "line": 153
         },
         {
           "name": "Los Angeles Data Portal",
@@ -890,7 +903,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 153
+          "line": 154
         },
         {
           "name": "Seattle Open Data",
@@ -903,7 +916,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 154
+          "line": 155
         },
         {
           "name": "San Francisco Open Data",
@@ -916,7 +929,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 155
+          "line": 156
         }
       ]
     },

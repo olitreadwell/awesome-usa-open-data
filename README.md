@@ -100,6 +100,7 @@ These cover most requests. Each one is listed in full under its publisher below.
     - [HealthData.gov](https://healthdata.gov/) - ☰ Portal - ○ Open - HHS open data catalog at healthdata.gov: a DCAT feed of about 19,700 datasets from FDA, CDC, CMS, NIH, and other HHS divisions, plus a Socrata discovery API for search across the catalog.
     - [ClinicalTrials.gov API](https://clinicaltrials.gov/) - ⇄ API - ○ Open - Clinical study registry from the National Library of Medicine: 605,000+ studies with sponsor, recruitment status, phase, enrollment, outcome measures, and locations. The v2 REST API answers JSON without a key, and /api/v2/studies/download streams every record as a zip of JSON.
     - [NCBI E-utilities](https://www.ncbi.nlm.nih.gov/home/develop/) - ⇄ API - ○ Open - The National Center for Biotechnology Information's keyless REST interface to 38 databases, from PubMed and PMC to GenBank, dbSNP, Protein, Taxonomy, and ClinVar. Search, summary, fetch, and link requests answer as JSON or XML.
+    - [PubMed](https://pubmed.ncbi.nlm.nih.gov/) - ⇄ API - ○ Open - The National Library of Medicine's index of biomedical literature, with citations from MEDLINE, life-science journals, and online books. The esearch endpoint in NCBI E-utilities answers JSON without a key and supports field tags for title/abstract words and Entrez dates.
 
 ## Education, science and culture
 

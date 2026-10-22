@@ -1,7 +1,7 @@
 {
   "name": "Awesome USA Data",
   "repo_slug": "awesome-usa-open-data",
-  "generated_at": "2026-10-20",
+  "generated_at": "2026-10-22",
   "entry_count": 68,
   "sections": [
     {
@@ -26,7 +26,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 56
+          "line": 97
         },
         {
           "name": "api.data.gov",
@@ -39,7 +39,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 57
+          "line": 99
         },
         {
           "name": "Federal Register API",
@@ -52,7 +52,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 58
+          "line": 103
         },
         {
           "name": "Congress.gov API",
@@ -65,7 +65,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 59
+          "line": 105
         },
         {
           "name": "GovInfo API",
@@ -78,7 +78,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 60
+          "line": 107
         },
         {
           "name": "Regulations.gov API",
@@ -91,7 +91,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 61
+          "line": 109
         },
         {
           "name": "SAM.gov",
@@ -104,7 +104,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 62
+          "line": 113
         },
         {
           "name": "Open States",
@@ -117,7 +117,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 63
+          "line": 115
         },
         {
           "name": "FCC Open Data",
@@ -130,7 +130,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 64
+          "line": 119
         },
         {
           "name": "FEMA OpenFEMA",
@@ -143,7 +143,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 65
+          "line": 121
         },
         {
           "name": "FBI Crime Data Explorer API",
@@ -156,7 +156,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 66
+          "line": 123
         },
         {
           "name": "BJS Crime Statistics",
@@ -169,7 +169,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 67
+          "line": 125
         }
       ]
     },
@@ -187,7 +187,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 71
+          "line": 129
         },
         {
           "name": "BLS Public Data API",
@@ -200,7 +200,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 72
+          "line": 131
         },
         {
           "name": "BEA API",
@@ -213,7 +213,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 73
+          "line": 133
         },
         {
           "name": "FRED (Federal Reserve Economic Data)",
@@ -226,7 +226,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 74
+          "line": 135
         },
         {
           "name": "IRS Statistics of Income",
@@ -239,7 +239,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 75
+          "line": 137
         },
         {
           "name": "EstimateTax",
@@ -252,7 +252,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 76
+          "line": 139
         },
         {
           "name": "USAspending API",
@@ -265,7 +265,7 @@
           "group": "US Department of the Treasury",
           "stars": null,
           "last_push": null,
-          "line": 78
+          "line": 143
         },
         {
           "name": "USAspending top-tier agency budget data",
@@ -278,7 +278,7 @@
           "group": "US Department of the Treasury",
           "stars": null,
           "last_push": null,
-          "line": 79
+          "line": 145
         },
         {
           "name": "Treasury Fiscal Data API",
@@ -291,7 +291,7 @@
           "group": "US Department of the Treasury",
           "stars": null,
           "last_push": null,
-          "line": 80
+          "line": 147
         },
         {
           "name": "Debt to the Penny",
@@ -304,7 +304,7 @@
           "group": "US Department of the Treasury",
           "stars": null,
           "last_push": null,
-          "line": 81
+          "line": 149
         }
       ]
     },
@@ -322,7 +322,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 85
+          "line": 155
         },
         {
           "name": "OpenFEC API",
@@ -335,7 +335,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 86
+          "line": 157
         },
         {
           "name": "FDIC BankFind Suite API",
@@ -348,7 +348,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 87
+          "line": 159
         },
         {
           "name": "CPSC Product Recall API",
@@ -361,7 +361,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 88
+          "line": 161
         },
         {
           "name": "CFPB Open Data",
@@ -374,7 +374,7 @@
           "group": "Consumer Financial Protection Bureau",
           "stars": null,
           "last_push": null,
-          "line": 90
+          "line": 167
         },
         {
           "name": "CFPB Consumer Complaint Database",
@@ -387,7 +387,7 @@
           "group": "Consumer Financial Protection Bureau",
           "stars": null,
           "last_push": null,
-          "line": 91
+          "line": 169
         }
       ]
     },
@@ -405,7 +405,7 @@
           "group": "US Department of Health and Human Services (HHS)",
           "stars": null,
           "last_push": null,
-          "line": 96
+          "line": 175
         },
         {
           "name": "openFDA",
@@ -418,7 +418,7 @@
           "group": "US Department of Health and Human Services (HHS)",
           "stars": null,
           "last_push": null,
-          "line": 97
+          "line": 177
         },
         {
           "name": "CMS Provider Data",
@@ -431,7 +431,7 @@
           "group": "US Department of Health and Human Services (HHS)",
           "stars": null,
           "last_push": null,
-          "line": 98
+          "line": 179
         },
         {
           "name": "NIH RePORTER",
@@ -444,7 +444,7 @@
           "group": "US Department of Health and Human Services (HHS)",
           "stars": null,
           "last_push": null,
-          "line": 99
+          "line": 181
         },
         {
           "name": "HealthData.gov",
@@ -457,7 +457,7 @@
           "group": "US Department of Health and Human Services (HHS)",
           "stars": null,
           "last_push": null,
-          "line": 100
+          "line": 183
         },
         {
           "name": "ClinicalTrials.gov API",
@@ -470,7 +470,7 @@
           "group": "US Department of Health and Human Services (HHS)",
           "stars": null,
           "last_push": null,
-          "line": 101
+          "line": 185
         },
         {
           "name": "NCBI E-utilities",
@@ -483,7 +483,7 @@
           "group": "US Department of Health and Human Services (HHS)",
           "stars": null,
           "last_push": null,
-          "line": 102
+          "line": 187
         },
         {
           "name": "PubMed",
@@ -496,7 +496,7 @@
           "group": "US Department of Health and Human Services (HHS)",
           "stars": null,
           "last_push": null,
-          "line": 103
+          "line": 189
         }
       ]
     },
@@ -514,7 +514,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 107
+          "line": 193
         },
         {
           "name": "NASA Open APIs",
@@ -527,7 +527,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 108
+          "line": 195
         },
         {
           "name": "Smithsonian Open Access",
@@ -540,7 +540,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 109
+          "line": 197
         }
       ]
     },
@@ -558,7 +558,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 113
+          "line": 203
         },
         {
           "name": "EPA Toxics Release Inventory facilities",
@@ -571,7 +571,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 114
+          "line": 205
         },
         {
           "name": "AirNow API",
@@ -584,7 +584,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 115
+          "line": 207
         },
         {
           "name": "NOAA Open APIs",
@@ -597,7 +597,7 @@
           "group": "NOAA",
           "stars": null,
           "last_push": null,
-          "line": 117
+          "line": 213
         },
         {
           "name": "National Weather Service API",
@@ -610,7 +610,7 @@
           "group": "NOAA",
           "stars": null,
           "last_push": null,
-          "line": 118
+          "line": 215
         },
         {
           "name": "USGS Earthquake Hazards",
@@ -623,7 +623,7 @@
           "group": "US Geological Survey",
           "stars": null,
           "last_push": null,
-          "line": 120
+          "line": 219
         },
         {
           "name": "USGS Water Services",
@@ -636,7 +636,7 @@
           "group": "US Geological Survey",
           "stars": null,
           "last_push": null,
-          "line": 121
+          "line": 221
         }
       ]
     },
@@ -654,7 +654,7 @@
           "group": "US Department of Transportation",
           "stars": null,
           "last_push": null,
-          "line": 126
+          "line": 227
         },
         {
           "name": "Bureau of Transportation Statistics",
@@ -667,7 +667,7 @@
           "group": "US Department of Transportation",
           "stars": null,
           "last_push": null,
-          "line": 127
+          "line": 229
         },
         {
           "name": "NHTSA Vehicle APIs",
@@ -680,7 +680,7 @@
           "group": "US Department of Transportation",
           "stars": null,
           "last_push": null,
-          "line": 128
+          "line": 231
         }
       ]
     },
@@ -698,7 +698,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 132
+          "line": 235
         },
         {
           "name": "USDA NASS Quick Stats API",
@@ -711,7 +711,7 @@
           "group": "US Department of Agriculture (USDA)",
           "stars": null,
           "last_push": null,
-          "line": 134
+          "line": 239
         },
         {
           "name": "USDA FoodData Central",
@@ -724,7 +724,7 @@
           "group": "US Department of Agriculture (USDA)",
           "stars": null,
           "last_push": null,
-          "line": 135
+          "line": 241
         }
       ]
     },
@@ -742,7 +742,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 139
+          "line": 245
         },
         {
           "name": "California Open Data Portal",
@@ -755,7 +755,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 140
+          "line": 247
         },
         {
           "name": "Texas Open Data",
@@ -768,7 +768,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 141
+          "line": 249
         },
         {
           "name": "Colorado Open Data",
@@ -781,7 +781,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 142
+          "line": 251
         },
         {
           "name": "Washington State Open Data",
@@ -794,7 +794,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 143
+          "line": 253
         },
         {
           "name": "Michigan Open Data",
@@ -807,7 +807,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 144
+          "line": 255
         },
         {
           "name": "Oregon Open Data",
@@ -820,7 +820,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 145
+          "line": 257
         },
         {
           "name": "Pennsylvania Open Data",
@@ -833,7 +833,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 146
+          "line": 259
         },
         {
           "name": "Illinois Open Data",
@@ -846,7 +846,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 147
+          "line": 261
         },
         {
           "name": "New Jersey Open Data",
@@ -859,7 +859,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 148
+          "line": 263
         },
         {
           "name": "Vermont Open Data",
@@ -872,7 +872,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 149
+          "line": 265
         }
       ]
     },
@@ -890,7 +890,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 153
+          "line": 269
         },
         {
           "name": "Chicago Data Portal",
@@ -903,7 +903,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 154
+          "line": 271
         },
         {
           "name": "Los Angeles Data Portal",
@@ -916,7 +916,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 155
+          "line": 273
         },
         {
           "name": "Seattle Open Data",
@@ -929,7 +929,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 156
+          "line": 275
         },
         {
           "name": "San Francisco Open Data",
@@ -942,7 +942,7 @@
           "group": null,
           "stars": null,
           "last_push": null,
-          "line": 157
+          "line": 277
         }
       ]
     },

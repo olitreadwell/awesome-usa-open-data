@@ -180,6 +180,8 @@ These cover most requests. Each one is listed in full under its publisher below.
 
     - [NIH RePORTER](https://reporter.nih.gov/) - ⇄ API - ○ Open - NIH database of funded biomedical research: projects, principal investigators, award amounts, and linked publications. JSON search API, no key.
 
+    - [PublicDataHub](https://publicdatahub.org/) - ⇄ API - ○ Open - Medicare-certified hospital quality measures, with national ranks and provenance. The export API answers JSON without a key.
+
     - [HealthData.gov](https://healthdata.gov/) - ☰ Portal - ○ Open - HHS open data catalog at healthdata.gov: a DCAT feed of about 19,700 datasets from FDA, CDC, CMS, NIH, and other HHS divisions, plus a Socrata discovery API for search across the catalog.
 
     - [ClinicalTrials.gov API](https://clinicaltrials.gov/) - ⇄ API - ○ Open - Clinical study registry from the National Library of Medicine: 605,000+ studies with sponsor, recruitment status, phase, enrollment, outcome measures, and locations. The v2 REST API answers JSON without a key, and /api/v2/studies/download streams every record as a zip of JSON.
@@ -192,7 +194,11 @@ These cover most requests. Each one is listed in full under its publisher below.
 
 - [ED Open Data](https://data.ed.gov/) - ☰ Portal - ○ Open - Department of Education data.ed.gov: college scorecard, civil rights data collection, and federal student aid statistics.
 
+- [College Scorecard](https://collegescorecard.ed.gov/) - ▦ Data - ○ Open - Institution-level enrollment, cost, completion, debt, and earnings ten years after entry for US colleges, with the bulk institution file behind the search tool.
+
 - [NASA Open APIs](https://api.nasa.gov/) - ⇄ API - ◑ Key - NASA api.nasa.gov: APOD, Mars rover photos, NEO asteroid tracking, and satellite imagery, key optional for most endpoints.
+
+- [Callook.info](https://callook.info/) - ⇄ API - ○ Open - US amateur radio callsign records from the FCC licence file, with the licence class, location, and expiry. The JSON lookup answers without a key.
 
 - [Smithsonian Open Access](https://edan.si.edu/openaccess/apidocs/) - ⇄ API - ◑ Key - CC0 object records and media from the Smithsonian's museums, archives, and research centers: specimen and catalogue metadata, images, library volumes, and research data. The EDAN Open Access API at api.si.edu takes an api.data.gov key and its stats endpoint publishes CC0 record counts per unit each month (48 units in September 2026); the same release is on the AWS Open Data registry as bulk files.
 
@@ -229,6 +235,8 @@ These cover most requests. Each one is listed in full under its publisher below.
     - [Bureau of Transportation Statistics](https://data.bts.gov/) - ☰ Portal - ○ Open - The US DOT Bureau of Transportation Statistics portal at data.bts.gov: monthly transportation indicators, freight and supply-chain measures, and state-level transportation finance tables, published through Socrata SODA APIs with CSV and JSON downloads.
 
     - [NHTSA Vehicle APIs](https://api.nhtsa.gov/) - ⇄ API - ○ Open - National Highway Traffic Safety Administration APIs on api.nhtsa.gov: recalls and safety complaints by make, model, and year, product model lists, NCAP safety ratings, and VIN decoding through vPIC, all JSON with no key.
+
+- [Portland Streetcar](https://portlandstreetcar.org/) - ⇄ API - ○ Open - Live positions, headings, speeds, and report ages for the streetcars on the NS line, through the keyless NextBus XML feed.
 
 ## Energy, agriculture and food
 

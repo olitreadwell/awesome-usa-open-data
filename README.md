@@ -88,13 +88,13 @@ These cover most requests. Each one is listed in full under its publisher below.
 
 - EPA Environmental Data - air, water and toxics
 
-- NYC Open Data - 3,000+ datasets from 40+ agencies
+- NYC Open Data - city datasets from many agencies
 
 ## Federal government and agencies
 
 ### Catalogues and gateways
 
-- [Data.gov](https://data.gov/) - ☰ Portal - ○ Open - US federal open data catalog. 200,000+ datasets via catalog.data.gov, CKAN API, and the DCAT metadata standard.
+- [Data.gov](https://data.gov/) - ☰ Portal - ○ Open - US federal open data catalog with a CKAN API and the DCAT metadata standard.
 
 - [api.data.gov](https://api.data.gov/) - ☰ Portal - ○ Open - The API management gateway for federal agency APIs. Free API keys for public services like USGS and the National Weather Service.
 
@@ -132,7 +132,7 @@ These cover most requests. Each one is listed in full under its publisher below.
 
 - [BEA API](https://apps.bea.gov/api/) - ⇄ API - ◑ Key - Bureau of Economic Analysis API: GDP, national and regional income, and industry accounts in structured JSON after free registration.
 
-- [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org/) - ⇄ API - ◑ Key - Economic time series from the Federal Reserve Bank of St. Louis: the catalog counts 853,000 series drawn from 126 sources, covering GDP, prices, employment, interest rates, and banking. The REST API at api.stlouisfed.org returns series metadata, observations, search results, and release dates with a free key, and ALFRED serves each series as it was first published.
+- [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org/) - ⇄ API - ◑ Key - Economic time series from the Federal Reserve Bank of St. Louis: the catalog spans many series and sources, covering GDP, prices, employment, interest rates, and banking. The REST API at api.stlouisfed.org returns series metadata, observations, search results, and release dates with a free key, and ALFRED serves each series as it was first published.
 
 - [IRS Statistics of Income](https://www.irs.gov/statistics) - ▦ Data - ○ Open - SOI tables: individual and corporate tax statistics, migration data, and ZIP-level aggregates published as CSV and PDF yearbook tables.
 
@@ -164,9 +164,9 @@ These cover most requests. Each one is listed in full under its publisher below.
 
 - Consumer Financial Protection Bureau
 
-    - [CFPB Open Data](https://www.consumerfinance.gov/data-research/) - ☰ Portal - ○ Open - Consumer Financial Protection Bureau data products: the public Consumer Complaint Database (more than 18 million complaints, searchable as JSON through its search API), HMDA mortgage data, the small business lending database, and consumer credit trend dashboards.
+    - [CFPB Open Data](https://www.consumerfinance.gov/data-research/) - ☰ Portal - ○ Open - Consumer Financial Protection Bureau data products: the public Consumer Complaint Database, searchable as JSON through its search API, plus HMDA mortgage data, the small business lending database, and consumer credit trend dashboards.
 
-    - [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/) - ▦ Data - ○ Open - The Consumer Complaint Database, one row for every complaint the Consumer Financial Protection Bureau has sent to a company since December 2011: more than 18 million records with the product, the issue, the company, the date received, and the company response. The search API answers JSON without a key, and the same rows run the public complaint search.
+    - [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/) - ▦ Data - ○ Open - The Consumer Complaint Database, one row for every complaint the Consumer Financial Protection Bureau has sent to a company since December 2011, with the product, the issue, the company, the date received, and the company response. The search API answers JSON without a key, and the same rows run the public complaint search.
 
 ## Health and public health
 
@@ -182,11 +182,11 @@ These cover most requests. Each one is listed in full under its publisher below.
 
     - [PublicDataHub](https://publicdatahub.org/) - ⇄ API - ○ Open - Medicare-certified hospital quality measures, with national ranks and provenance. The export API answers JSON without a key.
 
-    - [HealthData.gov](https://healthdata.gov/) - ☰ Portal - ○ Open - HHS open data catalog at healthdata.gov: a DCAT feed of about 19,700 datasets from FDA, CDC, CMS, NIH, and other HHS divisions, plus a Socrata discovery API for search across the catalog.
+    - [HealthData.gov](https://healthdata.gov/) - ☰ Portal - ○ Open - HHS open data catalog at healthdata.gov: a DCAT feed of datasets from FDA, CDC, CMS, NIH, and other HHS divisions, plus a Socrata discovery API for search across the catalog.
 
-    - [ClinicalTrials.gov API](https://clinicaltrials.gov/) - ⇄ API - ○ Open - Clinical study registry from the National Library of Medicine: 605,000+ studies with sponsor, recruitment status, phase, enrollment, outcome measures, and locations. The v2 REST API answers JSON without a key, and /api/v2/studies/download streams every record as a zip of JSON.
+    - [ClinicalTrials.gov API](https://clinicaltrials.gov/) - ⇄ API - ○ Open - Clinical study registry from the National Library of Medicine: studies with sponsor, recruitment status, phase, enrollment, outcome measures, and locations. The v2 REST API answers JSON without a key, and /api/v2/studies/download streams every record as a zip of JSON.
 
-    - [NCBI E-utilities](https://www.ncbi.nlm.nih.gov/home/develop/) - ⇄ API - ○ Open - The National Center for Biotechnology Information's keyless REST interface to 38 databases, from PubMed and PMC to GenBank, dbSNP, Protein, Taxonomy, and ClinVar. Search, summary, fetch, and link requests answer as JSON or XML.
+    - [NCBI E-utilities](https://www.ncbi.nlm.nih.gov/home/develop/) - ⇄ API - ○ Open - The National Center for Biotechnology Information's keyless REST interface to databases including PubMed and PMC, GenBank, dbSNP, Protein, Taxonomy, and ClinVar. Search, summary, fetch, and link requests answer as JSON or XML.
 
     - [PubMed](https://pubmed.ncbi.nlm.nih.gov/) - ⇄ API - ○ Open - The National Library of Medicine's index of biomedical literature, with citations from MEDLINE, life-science journals, and online books. The esearch endpoint in NCBI E-utilities answers JSON without a key and supports field tags for title/abstract words and Entrez dates.
 
@@ -200,7 +200,7 @@ These cover most requests. Each one is listed in full under its publisher below.
 
 - [Callook.info](https://callook.info/) - ⇄ API - ○ Open - US amateur radio callsign records from the FCC licence file, with the licence class, location, and expiry. The JSON lookup answers without a key.
 
-- [Smithsonian Open Access](https://edan.si.edu/openaccess/apidocs/) - ⇄ API - ◑ Key - CC0 object records and media from the Smithsonian's museums, archives, and research centers: specimen and catalogue metadata, images, library volumes, and research data. The EDAN Open Access API at api.si.edu takes an api.data.gov key and its stats endpoint publishes CC0 record counts per unit each month (48 units in September 2026); the same release is on the AWS Open Data registry as bulk files.
+- [Smithsonian Open Access](https://edan.si.edu/openaccess/apidocs/) - ⇄ API - ◑ Key - CC0 object records and media from the Smithsonian's museums, archives, and research centers: specimen and catalogue metadata, images, library volumes, and research data. The EDAN Open Access API at api.si.edu takes an api.data.gov key and its stats endpoint publishes CC0 record counts per unit each month; the same release is on the AWS Open Data registry as bulk files.
 
 ## Environment, climate and geospatial
 
@@ -210,7 +210,7 @@ These cover most requests. Each one is listed in full under its publisher below.
 
 - [EPA Toxics Release Inventory facilities](https://data.epa.gov/efservice/TRI_FACILITY/STATE_ABBR/CA/rows/0:9/JSON) - ⇄ API - ○ Open - One row per Toxics Release Inventory facility in a state, with the site address, county, parent company, and whether the EPA marks it closed. The Envirofacts endpoint answers JSON without a key and takes a state code and row window in the path.
 
-- [AirNow API](https://www.airnow.gov/) - ⇄ API - ◑ Key - Air quality observations and forecasts from the EPA's AirNow program, which draws on more than 150 local, state, tribal, provincial, and federal partner agencies and more than 2,500 monitoring stations. The REST API returns current AQI by ZIP code, reporting area, or latitude and longitude, plus forecasts, with a free key. Values are preliminary, not regulatory-grade.
+- [AirNow API](https://www.airnow.gov/) - ⇄ API - ◑ Key - Air quality observations and forecasts from the EPA's AirNow program, which draws on local, state, tribal, provincial, and federal partner agencies and monitoring stations. The REST API returns current AQI by ZIP code, reporting area, or latitude and longitude, plus forecasts, with a free key. Values are preliminary, not regulatory-grade.
 
 ### Weather and water
 
@@ -266,15 +266,15 @@ These cover most requests. Each one is listed in full under its publisher below.
 
 - [Pennsylvania Open Data](https://data.pa.gov/) - ☰ Portal - ○ Open - Pennsylvania's state open data portal at data.pa.gov: agency datasets on elections, revenue, education, health, and transportation, served through Socrata SODA APIs with CSV, JSON, and XML exports.
 
-- [Illinois Open Data](https://data.illinois.gov/) - ☰ Portal - ○ Open - The State of Illinois portal at data.illinois.gov: 404 datasets from state agencies covering health and human services, public safety, revenue, transportation, and the environment, published through the Socrata SODA API with CSV, JSON, and XML exports.
+- [Illinois Open Data](https://data.illinois.gov/) - ☰ Portal - ○ Open - The State of Illinois portal at data.illinois.gov: agency datasets covering health and human services, public safety, revenue, transportation, and the environment, published through the Socrata SODA API with CSV, JSON, and XML exports.
 
-- [New Jersey Open Data](https://data.nj.gov/) - ☰ Portal - ○ Open - The State of New Jersey portal at data.nj.gov: 621 datasets from state agencies covering the environment, public safety, health, transportation, and the state budget, published through the Socrata SODA API with CSV, JSON, and XML exports.
+- [New Jersey Open Data](https://data.nj.gov/) - ☰ Portal - ○ Open - The State of New Jersey portal at data.nj.gov: agency datasets covering the environment, public safety, health, transportation, and the state budget, published through the Socrata SODA API with CSV, JSON, and XML exports.
 
-- [Vermont Open Data](https://data.vermont.gov/) - ☰ Portal - ○ Open - The State of Vermont portal at data.vermont.gov: 270 datasets from state agencies covering education, health, transportation, energy, and the environment, published through the Socrata SODA API with CSV, JSON, and XML exports.
+- [Vermont Open Data](https://data.vermont.gov/) - ☰ Portal - ○ Open - The State of Vermont portal at data.vermont.gov: agency datasets covering education, health, transportation, energy, and the environment, published through the Socrata SODA API with CSV, JSON, and XML exports.
 
 ## City portals
 
-- [NYC Open Data](https://www.nyc.gov/opendata) - ☰ Portal - ○ Open - New York City Socrata portal: 3,000+ datasets from 40+ agencies, covering permits, 311, taxi trips, and building data.
+- [NYC Open Data](https://www.nyc.gov/opendata) - ☰ Portal - ○ Open - New York City Socrata portal: datasets from city agencies covering permits, 311, taxi trips, and building data.
 
 - [Chicago Data Portal](https://data.cityofchicago.org/) - ☰ Portal - ○ Open - City of Chicago Socrata portal: crime, permits, building violations, and transit datasets, a long-running civic open data program.
 

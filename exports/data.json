@@ -1,7 +1,7 @@
 {
   "name": "Awesome USA Data",
   "repo_slug": "awesome-usa-open-data",
-  "generated_at": "2026-11-08",
+  "generated_at": "2026-11-09",
   "entry_count": 72,
   "sections": [
     {
@@ -18,7 +18,7 @@
         {
           "name": "Data.gov",
           "url": "https://data.gov/",
-          "description": "US federal open data catalog. 200,000+ datasets via catalog.data.gov, CKAN API, and the DCAT metadata standard.",
+          "description": "US federal open data catalog with a CKAN API and the DCAT metadata standard.",
           "tags": [
             "Portal",
             "Open"
@@ -218,7 +218,7 @@
         {
           "name": "FRED (Federal Reserve Economic Data)",
           "url": "https://fred.stlouisfed.org/",
-          "description": "Economic time series from the Federal Reserve Bank of St. Louis: the catalog counts 853,000 series drawn from 126 sources, covering GDP, prices, employment, interest rates, and banking. The REST API at api.stlouisfed.org returns series metadata, observations, search results, and release dates with a free key, and ALFRED serves each series as it was first published.",
+          "description": "Economic time series from the Federal Reserve Bank of St. Louis: the catalog spans many series and sources, covering GDP, prices, employment, interest rates, and banking. The REST API at api.stlouisfed.org returns series metadata, observations, search results, and release dates with a free key, and ALFRED serves each series as it was first published.",
           "tags": [
             "API",
             "Key"
@@ -366,7 +366,7 @@
         {
           "name": "CFPB Open Data",
           "url": "https://www.consumerfinance.gov/data-research/",
-          "description": "Consumer Financial Protection Bureau data products: the public Consumer Complaint Database (more than 18 million complaints, searchable as JSON through its search API), HMDA mortgage data, the small business lending database, and consumer credit trend dashboards.",
+          "description": "Consumer Financial Protection Bureau data products: the public Consumer Complaint Database, searchable as JSON through its search API, plus HMDA mortgage data, the small business lending database, and consumer credit trend dashboards.",
           "tags": [
             "Portal",
             "Open"
@@ -379,7 +379,7 @@
         {
           "name": "CFPB Consumer Complaint Database",
           "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
-          "description": "The Consumer Complaint Database, one row for every complaint the Consumer Financial Protection Bureau has sent to a company since December 2011: more than 18 million records with the product, the issue, the company, the date received, and the company response. The search API answers JSON without a key, and the same rows run the public complaint search.",
+          "description": "The Consumer Complaint Database, one row for every complaint the Consumer Financial Protection Bureau has sent to a company since December 2011, with the product, the issue, the company, the date received, and the company response. The search API answers JSON without a key, and the same rows run the public complaint search.",
           "tags": [
             "Data",
             "Open"
@@ -462,7 +462,7 @@
         {
           "name": "HealthData.gov",
           "url": "https://healthdata.gov/",
-          "description": "HHS open data catalog at healthdata.gov: a DCAT feed of about 19,700 datasets from FDA, CDC, CMS, NIH, and other HHS divisions, plus a Socrata discovery API for search across the catalog.",
+          "description": "HHS open data catalog at healthdata.gov: a DCAT feed of datasets from FDA, CDC, CMS, NIH, and other HHS divisions, plus a Socrata discovery API for search across the catalog.",
           "tags": [
             "Portal",
             "Open"
@@ -475,7 +475,7 @@
         {
           "name": "ClinicalTrials.gov API",
           "url": "https://clinicaltrials.gov/",
-          "description": "Clinical study registry from the National Library of Medicine: 605,000+ studies with sponsor, recruitment status, phase, enrollment, outcome measures, and locations. The v2 REST API answers JSON without a key, and /api/v2/studies/download streams every record as a zip of JSON.",
+          "description": "Clinical study registry from the National Library of Medicine: studies with sponsor, recruitment status, phase, enrollment, outcome measures, and locations. The v2 REST API answers JSON without a key, and /api/v2/studies/download streams every record as a zip of JSON.",
           "tags": [
             "API",
             "Open"
@@ -488,7 +488,7 @@
         {
           "name": "NCBI E-utilities",
           "url": "https://www.ncbi.nlm.nih.gov/home/develop/",
-          "description": "The National Center for Biotechnology Information's keyless REST interface to 38 databases, from PubMed and PMC to GenBank, dbSNP, Protein, Taxonomy, and ClinVar. Search, summary, fetch, and link requests answer as JSON or XML.",
+          "description": "The National Center for Biotechnology Information's keyless REST interface to databases including PubMed and PMC, GenBank, dbSNP, Protein, Taxonomy, and ClinVar. Search, summary, fetch, and link requests answer as JSON or XML.",
           "tags": [
             "API",
             "Open"
@@ -571,7 +571,7 @@
         {
           "name": "Smithsonian Open Access",
           "url": "https://edan.si.edu/openaccess/apidocs/",
-          "description": "CC0 object records and media from the Smithsonian's museums, archives, and research centers: specimen and catalogue metadata, images, library volumes, and research data. The EDAN Open Access API at api.si.edu takes an api.data.gov key and its stats endpoint publishes CC0 record counts per unit each month (48 units in September 2026); the same release is on the AWS Open Data registry as bulk files.",
+          "description": "CC0 object records and media from the Smithsonian's museums, archives, and research centers: specimen and catalogue metadata, images, library volumes, and research data. The EDAN Open Access API at api.si.edu takes an api.data.gov key and its stats endpoint publishes CC0 record counts per unit each month; the same release is on the AWS Open Data registry as bulk files.",
           "tags": [
             "API",
             "Key"
@@ -615,7 +615,7 @@
         {
           "name": "AirNow API",
           "url": "https://www.airnow.gov/",
-          "description": "Air quality observations and forecasts from the EPA's AirNow program, which draws on more than 150 local, state, tribal, provincial, and federal partner agencies and more than 2,500 monitoring stations. The REST API returns current AQI by ZIP code, reporting area, or latitude and longitude, plus forecasts, with a free key. Values are preliminary, not regulatory-grade.",
+          "description": "Air quality observations and forecasts from the EPA's AirNow program, which draws on local, state, tribal, provincial, and federal partner agencies and monitoring stations. The REST API returns current AQI by ZIP code, reporting area, or latitude and longitude, plus forecasts, with a free key. Values are preliminary, not regulatory-grade.",
           "tags": [
             "API",
             "Key"
@@ -890,7 +890,7 @@
         {
           "name": "Illinois Open Data",
           "url": "https://data.illinois.gov/",
-          "description": "The State of Illinois portal at data.illinois.gov: 404 datasets from state agencies covering health and human services, public safety, revenue, transportation, and the environment, published through the Socrata SODA API with CSV, JSON, and XML exports.",
+          "description": "The State of Illinois portal at data.illinois.gov: agency datasets covering health and human services, public safety, revenue, transportation, and the environment, published through the Socrata SODA API with CSV, JSON, and XML exports.",
           "tags": [
             "Portal",
             "Open"
@@ -903,7 +903,7 @@
         {
           "name": "New Jersey Open Data",
           "url": "https://data.nj.gov/",
-          "description": "The State of New Jersey portal at data.nj.gov: 621 datasets from state agencies covering the environment, public safety, health, transportation, and the state budget, published through the Socrata SODA API with CSV, JSON, and XML exports.",
+          "description": "The State of New Jersey portal at data.nj.gov: agency datasets covering the environment, public safety, health, transportation, and the state budget, published through the Socrata SODA API with CSV, JSON, and XML exports.",
           "tags": [
             "Portal",
             "Open"
@@ -916,7 +916,7 @@
         {
           "name": "Vermont Open Data",
           "url": "https://data.vermont.gov/",
-          "description": "The State of Vermont portal at data.vermont.gov: 270 datasets from state agencies covering education, health, transportation, energy, and the environment, published through the Socrata SODA API with CSV, JSON, and XML exports.",
+          "description": "The State of Vermont portal at data.vermont.gov: agency datasets covering education, health, transportation, energy, and the environment, published through the Socrata SODA API with CSV, JSON, and XML exports.",
           "tags": [
             "Portal",
             "Open"
@@ -934,7 +934,7 @@
         {
           "name": "NYC Open Data",
           "url": "https://www.nyc.gov/opendata",
-          "description": "New York City Socrata portal: 3,000+ datasets from 40+ agencies, covering permits, 311, taxi trips, and building data.",
+          "description": "New York City Socrata portal: datasets from city agencies covering permits, 311, taxi trips, and building data.",
           "tags": [
             "Portal",
             "Open"

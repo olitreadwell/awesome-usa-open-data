@@ -7,8 +7,6 @@ Read from:
 - https://raw.githubusercontent.com/public-apis/public-apis/master/README.md
 - https://raw.githubusercontent.com/n0shake/Public-APIs/master/README.md
 
-17 candidates.
-
 | Entry | Where | Why | Stats |
 | --- | --- | --- | --- |
 | [EstimateTax](https://estimatetax.net/api/) | Finance | federal | not a repo |
